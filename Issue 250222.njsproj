@@ -17,11 +17,7 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
-    <Content Include="package-lock.json" />
     <Content Include="package.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Issue 250222" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="index.js">
